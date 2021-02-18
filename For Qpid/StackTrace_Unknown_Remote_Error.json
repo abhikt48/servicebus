@@ -1,0 +1,902 @@
+[
+  {
+    "severityLevel": "Warning",
+    "parsedStack": [
+      {
+        "fileName": "ProviderException.java",
+        "method": "org.apache.qpid.jms.provider.ProviderException.toJMSException",
+        "level": 0,
+        "line": 34
+      },
+      {
+        "fileName": "JmsExceptionSupport.java",
+        "method": "org.apache.qpid.jms.exceptions.JmsExceptionSupport.create",
+        "level": 1,
+        "line": 80
+      },
+      {
+        "fileName": "JmsExceptionSupport.java",
+        "method": "org.apache.qpid.jms.exceptions.JmsExceptionSupport.create",
+        "level": 2,
+        "line": 112
+      },
+      {
+        "fileName": "JmsConnection.java",
+        "method": "org.apache.qpid.jms.JmsConnection.send",
+        "level": 3,
+        "line": 778
+      },
+      {
+        "fileName": "JmsNoTxTransactionContext.java",
+        "method": "org.apache.qpid.jms.JmsNoTxTransactionContext.send",
+        "level": 4,
+        "line": 37
+      },
+      {
+        "fileName": "JmsSession.java",
+        "method": "org.apache.qpid.jms.JmsSession.send",
+        "level": 5,
+        "line": 965
+      },
+      {
+        "fileName": "JmsSession.java",
+        "method": "org.apache.qpid.jms.JmsSession.send",
+        "level": 6,
+        "line": 844
+      },
+      {
+        "fileName": "JmsMessageProducer.java",
+        "method": "org.apache.qpid.jms.JmsMessageProducer.sendMessage",
+        "level": 7,
+        "line": 252
+      },
+      {
+        "fileName": "JmsMessageProducer.java",
+        "method": "org.apache.qpid.jms.JmsMessageProducer.send",
+        "level": 8,
+        "line": 182
+      },
+      {
+        "fileName": "ServicebusImpl.java",
+        "method": "org.mule.servicebus.ServicebusImpl.send",
+        "level": 9,
+        "line": 189
+      },
+      {
+        "fileName": "ServicebusPublisher.java",
+        "method": "org.mule.servicebus.ServicebusPublisher.sendMessage",
+        "level": 10,
+        "line": 388
+      },
+      {
+        "fileName": "ServicebusPublisher.java",
+        "method": "org.mule.servicebus.ServicebusPublisher.dispatchEvent",
+        "level": 11,
+        "line": 185
+      },
+      {
+        "fileName": "ServicebusPublisher.java",
+        "method": "org.mule.servicebus.ServicebusPublisher.doSend",
+        "level": 12,
+        "line": 97
+      },
+      {
+        "fileName": "AbstractMessageDispatcher.java",
+        "method": "org.mule.AbstractMessageDispatcher.process",
+        "level": 13,
+        "line": 103
+      },
+      {
+        "fileName": "AbstractConnector.java",
+        "method": "org.mule.AbstractConnector$DispatcherMessageProcessor.process",
+        "level": 14,
+        "line": 2735
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 15,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 16,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 17,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 18,
+        "line": 88
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 19,
+        "line": 59
+      },
+      {
+        "fileName": "DefaultMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.DefaultMessageProcessorChain.doProcess",
+        "level": 20,
+        "line": 81
+      },
+      {
+        "fileName": "AbstractMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.AbstractMessageProcessorChain.process",
+        "level": 21,
+        "line": 74
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 22,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 23,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 24,
+        "line": 98
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 25,
+        "line": 59
+      },
+      {
+        "fileName": "AbstractInterceptingMessageProcessorBase.java",
+        "method": "org.mule.processor.AbstractInterceptingMessageProcessorBase.processNext",
+        "level": 26,
+        "line": 99
+      },
+      {
+        "fileName": "AbstractRequestResponseMessageProcessor.java",
+        "method": "org.mule.processor.AbstractRequestResponseMessageProcessor.processBlocking",
+        "level": 27,
+        "line": 57
+      },
+      {
+        "fileName": "AbstractRequestResponseMessageProcessor.java",
+        "method": "org.mule.processor.AbstractRequestResponseMessageProcessor.process",
+        "level": 28,
+        "line": 48
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 29,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 30,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 31,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 32,
+        "line": 88
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 33,
+        "line": 59
+      },
+      {
+        "fileName": "DefaultMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.DefaultMessageProcessorChain.doProcess",
+        "level": 34,
+        "line": 81
+      },
+      {
+        "fileName": "AbstractMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.AbstractMessageProcessorChain.process",
+        "level": 35,
+        "line": 74
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 36,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 37,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 38,
+        "line": 98
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 39,
+        "line": 59
+      },
+      {
+        "fileName": "AbstractInterceptingMessageProcessorBase.java",
+        "method": "org.mule.processor.AbstractInterceptingMessageProcessorBase.processNext",
+        "level": 40,
+        "line": 99
+      },
+      {
+        "fileName": "EndpointTransactionalInterceptingMessageProcessor.java",
+        "method": "org.mule.processor.EndpointTransactionalInterceptingMessageProcessor.process",
+        "level": 41,
+        "line": 73
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 42,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 43,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 44,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 45,
+        "line": 98
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 46,
+        "line": 59
+      },
+      {
+        "fileName": "AbstractInterceptingMessageProcessorBase.java",
+        "method": "org.mule.processor.AbstractInterceptingMessageProcessorBase.processNext",
+        "level": 47,
+        "line": 99
+      },
+      {
+        "fileName": "AbstractFilteringMessageProcessor.java",
+        "method": "org.mule.processor.AbstractFilteringMessageProcessor.process",
+        "level": 48,
+        "line": 62
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 49,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 50,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 51,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 52,
+        "line": 88
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 53,
+        "line": 59
+      },
+      {
+        "fileName": "DefaultMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.DefaultMessageProcessorChain.doProcess",
+        "level": 54,
+        "line": 81
+      },
+      {
+        "fileName": "AbstractMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.AbstractMessageProcessorChain.process",
+        "level": 55,
+        "line": 74
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper.doProcess",
+        "level": 56,
+        "line": 50
+      },
+      {
+        "fileName": "AbstractMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.AbstractMessageProcessorChain.process",
+        "level": 57,
+        "line": 74
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper.access$001",
+        "level": 58,
+        "line": 22
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper$1.process",
+        "level": 59,
+        "line": 66
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 60,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 61,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 62,
+        "line": 44
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper.process",
+        "level": 63,
+        "line": 61
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 64,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 65,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 66,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 67,
+        "line": 88
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 68,
+        "line": 59
+      },
+      {
+        "fileName": "DefaultMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.DefaultMessageProcessorChain.doProcess",
+        "level": 69,
+        "line": 81
+      },
+      {
+        "fileName": "AbstractMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.AbstractMessageProcessorChain.process",
+        "level": 70,
+        "line": 74
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper.doProcess",
+        "level": 71,
+        "line": 50
+      },
+      {
+        "fileName": "AbstractMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.AbstractMessageProcessorChain.process",
+        "level": 72,
+        "line": 74
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper.access$001",
+        "level": 73,
+        "line": 22
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper$1.process",
+        "level": 74,
+        "line": 66
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 75,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 76,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 77,
+        "line": 44
+      },
+      {
+        "fileName": "InterceptingChainLifecycleWrapper.java",
+        "method": "org.mule.processor.chain.InterceptingChainLifecycleWrapper.process",
+        "level": 78,
+        "line": 61
+      },
+      {
+        "fileName": "DefaultOutboundEndpoint.java",
+        "method": "org.mule.endpoint.DefaultOutboundEndpoint.process",
+        "level": 79,
+        "line": 100
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 80,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorNotificationExecutionInterceptor.java",
+        "method": "org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute",
+        "level": 81,
+        "line": 112
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 82,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 83,
+        "line": 98
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 84,
+        "line": 59
+      },
+      {
+        "fileName": "DefaultMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.DefaultMessageProcessorChain.doProcess",
+        "level": 85,
+        "line": 81
+      },
+      {
+        "fileName": "AbstractMessageProcessorChain.java",
+        "method": "org.mule.processor.chain.AbstractMessageProcessorChain.process",
+        "level": 86,
+        "line": 74
+      },
+      {
+        "fileName": "ExceptionToMessagingExceptionExecutionInterceptor.java",
+        "method": "org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute",
+        "level": 87,
+        "line": 27
+      },
+      {
+        "fileName": "MessageProcessorExecutionTemplate.java",
+        "method": "org.mule.execution.MessageProcessorExecutionTemplate.execute",
+        "level": 88,
+        "line": 44
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.executeNext",
+        "level": 89,
+        "line": 98
+      },
+      {
+        "fileName": "BlockingProcessorExecutor.java",
+        "method": "org.mule.processor.BlockingProcessorExecutor.execute",
+        "level": 90,
+        "line": 59
+      },
+      {
+        "fileName": "AbstractInterceptingMessageProcessorBase.java",
+        "method": "org.mule.processor.AbstractInterceptingMessageProcessorBase.processNext",
+        "level": 91,
+        "line": 99
+      },
+      {
+        "fileName": "AbstractEnvelopeInterceptor.java",
+        "method": "org.mule.interceptor.AbstractEnvelopeInterceptor.processBlocking",
+        "level": 92,
+        "line": 59
+      },
+      {
+        "fileName": "AbstractRequestResponseMessageProcessor.java",
+        "method": "org.mule.processor.AbstractRequestResponseMessageProcessor.process",
+        "level": 93,
+        "line": 48
+      },
+      {
+        "fileName": "AsyncInterceptingMessageProcessor.java",
+        "method": "org.mule.processor.AsyncInterceptingMessageProcessor.processNextTimed",
+        "level": 94,
+        "line": 140
+      },
+      {
+        "fileName": "AsyncInterceptingMessageProcessor.java",
+        "method": "org.mule.processor.AsyncInterceptingMessageProcessor$AsyncMessageProcessorWorker$1.process",
+        "level": 95,
+        "line": 230
+      },
+      {
+        "fileName": "AsyncInterceptingMessageProcessor.java",
+        "method": "org.mule.processor.AsyncInterceptingMessageProcessor$AsyncMessageProcessorWorker$1.process",
+        "level": 96,
+        "line": 223
+      },
+      {
+        "fileName": "ExecuteCallbackInterceptor.java",
+        "method": "org.mule.execution.ExecuteCallbackInterceptor.execute",
+        "level": 97,
+        "line": 16
+      },
+      {
+        "fileName": "CommitTransactionInterceptor.java",
+        "method": "org.mule.execution.CommitTransactionInterceptor.execute",
+        "level": 98,
+        "line": 35
+      },
+      {
+        "fileName": "CommitTransactionInterceptor.java",
+        "method": "org.mule.execution.CommitTransactionInterceptor.execute",
+        "level": 99,
+        "line": 22
+      },
+      {
+        "fileName": "HandleExceptionInterceptor.java",
+        "method": "org.mule.execution.HandleExceptionInterceptor.execute",
+        "level": 100,
+        "line": 30
+      },
+      {
+        "fileName": "HandleExceptionInterceptor.java",
+        "method": "org.mule.execution.HandleExceptionInterceptor.execute",
+        "level": 101,
+        "line": 14
+      },
+      {
+        "fileName": "BeginAndResolveTransactionInterceptor.java",
+        "method": "org.mule.execution.BeginAndResolveTransactionInterceptor.execute",
+        "level": 102,
+        "line": 67
+      },
+      {
+        "fileName": "ResolvePreviousTransactionInterceptor.java",
+        "method": "org.mule.execution.ResolvePreviousTransactionInterceptor.execute",
+        "level": 103,
+        "line": 44
+      },
+      {
+        "fileName": "SuspendXaTransactionInterceptor.java",
+        "method": "org.mule.execution.SuspendXaTransactionInterceptor.execute",
+        "level": 104,
+        "line": 50
+      },
+      {
+        "fileName": "ValidateTransactionalStateInterceptor.java",
+        "method": "org.mule.execution.ValidateTransactionalStateInterceptor.execute",
+        "level": 105,
+        "line": 40
+      },
+      {
+        "fileName": "IsolateCurrentTransactionInterceptor.java",
+        "method": "org.mule.execution.IsolateCurrentTransactionInterceptor.execute",
+        "level": 106,
+        "line": 41
+      },
+      {
+        "fileName": "ExternalTransactionInterceptor.java",
+        "method": "org.mule.execution.ExternalTransactionInterceptor.execute",
+        "level": 107,
+        "line": 48
+      },
+      {
+        "fileName": "RethrowExceptionInterceptor.java",
+        "method": "org.mule.execution.RethrowExceptionInterceptor.execute",
+        "level": 108,
+        "line": 28
+      },
+      {
+        "fileName": "RethrowExceptionInterceptor.java",
+        "method": "org.mule.execution.RethrowExceptionInterceptor.execute",
+        "level": 109,
+        "line": 13
+      },
+      {
+        "fileName": "TransactionalErrorHandlingExecutionTemplate.java",
+        "method": "org.mule.execution.TransactionalErrorHandlingExecutionTemplate.execute",
+        "level": 110,
+        "line": 110
+      },
+      {
+        "fileName": "TransactionalErrorHandlingExecutionTemplate.java",
+        "method": "org.mule.execution.TransactionalErrorHandlingExecutionTemplate.execute",
+        "level": 111,
+        "line": 30
+      },
+      {
+        "fileName": "AsyncInterceptingMessageProcessor.java",
+        "method": "org.mule.processor.AsyncInterceptingMessageProcessor$AsyncMessageProcessorWorker.doRun",
+        "level": 112,
+        "line": 222
+      },
+      {
+        "fileName": "AbstractMuleEventWork.java",
+        "method": "org.mule.work.AbstractMuleEventWork.run",
+        "level": 113,
+        "line": 53
+      },
+      {
+        "fileName": "WorkerContext.java",
+        "method": "org.mule.work.WorkerContext.run",
+        "level": 114,
+        "line": 301
+      },
+      {
+        "fileName": "ThreadPoolExecutor.java",
+        "method": "java.util.concurrent.ThreadPoolExecutor.runWorker",
+        "level": 115,
+        "line": 1149
+      },
+      {
+        "fileName": "ThreadPoolExecutor.java",
+        "method": "java.util.concurrent.ThreadPoolExecutor$Worker.run",
+        "level": 116,
+        "line": 624
+      },
+      {
+        "fileName": "Thread.java",
+        "method": "java.lang.Thread.run",
+        "level": 117,
+        "line": 748
+      }
+    ],
+    "outerId": "0",
+    "message": "Unknown error from remote peer",
+    "type": "javax.jms.JMSException",
+    "id": "842541599"
+  },
+  {
+    "severityLevel": "Warning",
+    "parsedStack": [
+      {
+        "fileName": "AmqpSupport.java",
+        "method": "org.apache.qpid.jms.provider.amqp.AmqpSupport.convertToNonFatalException",
+        "level": 0,
+        "line": 184
+      },
+      {
+        "fileName": "AmqpAbstractResource.java",
+        "method": "org.apache.qpid.jms.provider.amqp.AmqpAbstractResource.processRemoteClose",
+        "level": 1,
+        "line": 269
+      },
+      {
+        "fileName": "AmqpProvider.java",
+        "method": "org.apache.qpid.jms.provider.amqp.AmqpProvider.processUpdates",
+        "level": 2,
+        "line": 985
+      },
+      {
+        "fileName": "AmqpProvider.java",
+        "method": "org.apache.qpid.jms.provider.amqp.AmqpProvider.onData",
+        "level": 3,
+        "line": 871
+      },
+      {
+        "fileName": "NettyTcpTransport.java",
+        "method": "org.apache.qpid.jms.transports.netty.NettyTcpTransport$NettyTcpTransportHandler.channelRead0",
+        "level": 4,
+        "line": 563
+      },
+      {
+        "fileName": "NettyTcpTransport.java",
+        "method": "org.apache.qpid.jms.transports.netty.NettyTcpTransport$NettyTcpTransportHandler.channelRead0",
+        "level": 5,
+        "line": 556
+      },
+      {
+        "fileName": "SimpleChannelInboundHandler.java",
+        "method": "io.netty.channel.SimpleChannelInboundHandler.channelRead",
+        "level": 6,
+        "line": 99
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead",
+        "level": 7,
+        "line": 379
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead",
+        "level": 8,
+        "line": 365
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.fireChannelRead",
+        "level": 9,
+        "line": 357
+      },
+      {
+        "fileName": "SslHandler.java",
+        "method": "io.netty.handler.ssl.SslHandler.unwrap",
+        "level": 10,
+        "line": 1533
+      },
+      {
+        "fileName": "SslHandler.java",
+        "method": "io.netty.handler.ssl.SslHandler.decodeJdkCompatible",
+        "level": 11,
+        "line": 1282
+      },
+      {
+        "fileName": "SslHandler.java",
+        "method": "io.netty.handler.ssl.SslHandler.decode",
+        "level": 12,
+        "line": 1329
+      },
+      {
+        "fileName": "ByteToMessageDecoder.java",
+        "method": "io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection",
+        "level": 13,
+        "line": 508
+      },
+      {
+        "fileName": "ByteToMessageDecoder.java",
+        "method": "io.netty.handler.codec.ByteToMessageDecoder.callDecode",
+        "level": 14,
+        "line": 447
+      },
+      {
+        "fileName": "ByteToMessageDecoder.java",
+        "method": "io.netty.handler.codec.ByteToMessageDecoder.channelRead",
+        "level": 15,
+        "line": 276
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead",
+        "level": 16,
+        "line": 379
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead",
+        "level": 17,
+        "line": 365
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.fireChannelRead",
+        "level": 18,
+        "line": 357
+      },
+      {
+        "fileName": "DefaultChannelPipeline.java",
+        "method": "io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead",
+        "level": 19,
+        "line": 1410
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead",
+        "level": 20,
+        "line": 379
+      },
+      {
+        "fileName": "AbstractChannelHandlerContext.java",
+        "method": "io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead",
+        "level": 21,
+        "line": 365
+      },
+      {
+        "fileName": "DefaultChannelPipeline.java",
+        "method": "io.netty.channel.DefaultChannelPipeline.fireChannelRead",
+        "level": 22,
+        "line": 919
+      },
+      {
+        "fileName": "AbstractEpollStreamChannel.java",
+        "method": "io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady",
+        "level": 23,
+        "line": 795
+      },
+      {
+        "fileName": "EpollEventLoop.java",
+        "method": "io.netty.channel.epoll.EpollEventLoop.processReady",
+        "level": 24,
+        "line": 480
+      },
+      {
+        "fileName": "EpollEventLoop.java",
+        "method": "io.netty.channel.epoll.EpollEventLoop.run",
+        "level": 25,
+        "line": 378
+      },
+      {
+        "fileName": "SingleThreadEventExecutor.java",
+        "method": "io.netty.util.concurrent.SingleThreadEventExecutor$4.run",
+        "level": 26,
+        "line": 989
+      },
+      {
+        "fileName": "ThreadExecutorMap.java",
+        "method": "io.netty.util.internal.ThreadExecutorMap$2.run",
+        "level": 27,
+        "line": 74
+      },
+      {
+        "fileName": "Thread.java",
+        "method": "java.lang.Thread.run",
+        "level": 28,
+        "line": 748
+      }
+    ],
+    "outerId": "842541599",
+    "message": "Unknown error from remote peer",
+    "type": "org.apache.qpid.jms.provider.ProviderException",
+    "id": "737788119"
+  }
+]
