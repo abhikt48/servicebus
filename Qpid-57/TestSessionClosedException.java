@@ -21,7 +21,7 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import org.apache.qpid.jms.JmsConnection;
 import org.junit.Test;
-import org.mule.transport.servicebus.ServicebusCustomConnectionListener;
+import org.mule.servicebus.ServicebusCustomConnectionListener;
 
 /**
  * @author Abhishek.Kumar
