@@ -22,6 +22,14 @@ import org.mule.transport.servicebus.ServicebusConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Used dependency -
+ <dependency>
+    <groupId>org.apache.qpid</groupId>
+    <artifactId>qpid-jms-client</artifactId>
+    <version>0.57.0</version>
+</dependency>
+*/
 
 public class QpidPublishMsg{
 
